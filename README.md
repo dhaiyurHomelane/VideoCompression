@@ -1,6 +1,6 @@
-# video-cmpression
+# video-compressor
 
-test plugin
+Compress videos, images and audio before upload
 
 ## Install
 
@@ -9,29 +9,19 @@ npm install video-cmpression
 npx cap sync
 ```
 
-## API
+## Usage
+#### Image
+```bash
+import { VideoCompressor } from 'video-compressor';
 
-<docgen-index>
-
-* [`echo(...)`](#echo)
-
-</docgen-index>
-
-<docgen-api>
-<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
-
-### echo(...)
-
-```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+const result = await VideoCompression.compressVideo({filePath:''});
+console.log(result.value);
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+#### Video
+```bash
+import { VideoCompressor } from 'video-compressor';
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
-
---------------------
-
-</docgen-api>
+const result = await VideoCompression.compressVideo({filePath:''});
+console.log(result.value);
+```

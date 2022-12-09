@@ -1,7 +1,7 @@
 {
-  "name": "video-cmpression",
+  "name": "video-compressor",
   "version": "0.0.1",
-  "description": "test plugin",
+  "description": "Plugin for video compression for android only.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -13,11 +13,11 @@
     "ios/Plugin/",
     "VideoCmpression.podspec"
   ],
-  "author": "Dhaiyur",
+  "author": "dhaiyur",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhaiyurHomelane/VideoCompression.git"
+    "url": "https://github.com/dhaiyurHomelane/VideoCompression.git"
   },
   "bugs": {
     "url": "https://github.com/dhaiyurHomelane/VideoCompression/issues"
